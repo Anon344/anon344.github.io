@@ -1,0 +1,90 @@
+body {
+    font-family: 'Merriweather', serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+.author {
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+#table-of-contents {
+    margin-top: 3rem;
+}
+
+#table-of-contents p {
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
+ol {
+    padding-left: 1.5rem;
+}
+
+ol ol {
+    list-style-type: lower-alpha;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 1rem;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+article img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #444;
+    border-radius: 5px;
+}
+
+article figcaption {
+    text-align: center;
+    font-style: italic;
+    color: #aaa;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 0.875em; /* Smaller font size */
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
